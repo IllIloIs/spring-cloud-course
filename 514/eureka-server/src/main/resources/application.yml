@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 8761
+eureka:
+
+  client:
+    log-delta-diff: true
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    nonSecurePortEnabled: false
+    securePortEnabled: true
+    statusPageUrl: https://${eureka.hostname}/info
+    healthCheckUrl: https://${eureka.hostname}/health
+    homePageUrl: https://${eureka.hostname}/
