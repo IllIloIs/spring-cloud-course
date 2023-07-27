@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/514/book-service/book-service.iml" filepath="$PROJECT_DIR$/514/book-service/book-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/514/client-service/client-service.iml" filepath="$PROJECT_DIR$/514/client-service/client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/413/config-client/config-client.iml" filepath="$PROJECT_DIR$/413/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/514/config-server/config-server.iml" filepath="$PROJECT_DIR$/514/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/413/config-server/config-server (1) (dev.illilois.kata).iml" filepath="$PROJECT_DIR$/413/config-server/config-server (1) (dev.illilois.kata).iml" />
+      <module fileurl="file://$PROJECT_DIR$/514/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/514/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/621/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/621/gateway-service/gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-course.iml" filepath="$PROJECT_DIR$/spring-cloud-course.iml" />
     </modules>
   </component>

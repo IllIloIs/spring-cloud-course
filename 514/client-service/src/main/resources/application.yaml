@@ -6,8 +6,6 @@ spring:
     name: book-client
 
 eureka:
-  instance:
-    prefer-ip-address: true
   client:
     service-url:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
