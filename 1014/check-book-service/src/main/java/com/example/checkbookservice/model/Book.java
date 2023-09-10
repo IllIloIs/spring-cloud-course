@@ -1,4 +1,4 @@
-package com.example.creationbookservice.model;
+package com.example.checkbookservice.model;
 
 import lombok.Builder;
 import lombok.Data;
