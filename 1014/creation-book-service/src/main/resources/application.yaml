@@ -1,0 +1,13 @@
+server:
+  port: 8091
+
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          auto-add-partitions: true
+
+      bindings:
+        bookEventProcessor-out-0:
+          destination: create-book

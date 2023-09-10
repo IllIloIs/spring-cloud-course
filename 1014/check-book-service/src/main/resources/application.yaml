@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          auto-add-partitions: true
+
+      bindings:
+        checkBookEventProcessor-in-0: # receiver class name
+          destination: create-book #topic name
+        checkBookEventProcessor-out-0: # sender class name
+          destination: store-book #topic name

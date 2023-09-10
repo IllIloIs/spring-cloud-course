@@ -1,0 +1,13 @@
+server:
+  port: 8093
+
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          auto-add-partitions: true
+
+      bindings:
+        bookEventProcessor-in-0: # receiver class name
+          destination: store-book #topic name
